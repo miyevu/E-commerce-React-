@@ -11,7 +11,6 @@
         opacity: 10;
     }
 
-
     .backdrop {
         position: fixed;
         z-index: 1;
@@ -21,7 +20,6 @@
         top: 0;
         left: 0;
     }
-
 
     .nav-list{
         margin-right: 23px;
@@ -71,14 +69,10 @@
         right: 0;
     }
 
-
     .nav-wrapper {
         flex-direction: column;
-        align-items: center; /* Center horizontally */
+        align-items: center;
     }
-
-
-    /*  */
     
     .logo-container {
         flex: 1; 
@@ -86,19 +80,15 @@
         justify-content: center;
     }
 
-    
     .mobile-icons {
         position: absolute;
         top: 20px;
         left: 20px;
     }
 
-    
-
     .mobile-icons {
         position: static;
     }
-
 
     /* ShopNow */
     .shop-now-container {
@@ -107,28 +97,23 @@
         height: auto;
     }
 
-
     .product-image {
         width: 100vw;
         height: 360px;
     }
-
     
     .arrow-container{
         display: none;
     }
 
-
     .arrow {
         padding: 19.6px 23.8px;
     }
-
 
     .shop-now-image-container {
         position: relative;
         height: 360px;
     }
-
 
     .arrow-container-mobile {
         display: block;
@@ -138,24 +123,19 @@
         right: 0;
     }
 
-
     .text-container {
         padding: 60px 32px;
         padding-bottom: 60px;
     }
 
-
     .shopnow {
         margin-top: 20px;
     }
 
-
     /* AboutFurniture */
-    
     .about-furniture-container {
         height: auto;
     }
-
 
     .image-container img {
         width: 100vw;
@@ -165,27 +145,22 @@
         height: 238px;
     }
 
-
     .image_light {
         height: 277px;
     }
-
 
     .dark,
     .light {
         height: 100%;
     }
 
-
     .about-text-container {
         text-align: left;
         padding: 39px 32px 42px 32px;
     }
 
-
     .about-text-container h3 {
         font-size: 14px;
         white-space: nowrap;
     }
-    
 }
