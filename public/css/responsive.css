@@ -335,16 +335,17 @@
         padding: 39px 32px 42px 32px;
     }
 
-    .about-text-container h3,
     .text-container h1 {
         font-size: 44px;
         max-width: none;
     }
 
     .about-text-container p,
+    .about-text-container h3,
     .text-container p {
         font-size: 36px;
     }
+
 
     .hamburger,
     .logo,
@@ -364,5 +365,9 @@
 
     .nav-list {
         font-size:24px
+    }
+
+    .shopnow p {
+        font-size: 28px;
     }
 }
