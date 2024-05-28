@@ -6,10 +6,10 @@ import AboutFurniture from './components/AboutFurniture';
 function App() {
   return (
     <>
-        <NavBar/>
-        <ShopNow/>
-        <AboutFurniture/>
-        </>
+      <NavBar/>
+      <ShopNow/>
+      <AboutFurniture/>
+    </>
   );
 }
 
