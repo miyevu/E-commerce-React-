@@ -298,7 +298,7 @@
 
     .text-container {
         padding: 60px 32px;
-        padding-bottom: 60px;
+        padding-bottom: 80px;
     }
 
     .shopnow {
@@ -338,11 +338,19 @@
     .about-text-container h3,
     .text-container h1 {
         font-size: 44px;
+        max-width: none;
     }
 
     .about-text-container p,
     .text-container p {
         font-size: 36px;
+    }
+
+    .hamburger,
+    .logo,
+    .close {
+        height: 20px;
+        width: auto;
     }
 
     .image_dark,
@@ -352,5 +360,9 @@
 
     .product-image {
         height: auto;
+    }
+
+    .nav-list {
+        font-size:24px
     }
 }

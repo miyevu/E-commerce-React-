@@ -12,7 +12,7 @@ const NavPopUp: React.FC<NavPopUpProps> = ({ closePopup }) => {
                 <div className="popup__close">
                     <button className="close-btn" aria-label="Close navigation menu"
                     onClick={() => closePopup()} >
-                        <img src={close} alt="close button" />
+                        <img src={close} alt="close button" className="close button" />
                     </button>
                 </div>
                 <div>

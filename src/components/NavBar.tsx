@@ -30,7 +30,7 @@ const NavBar: FC = () => {
                                 className="hamburger-btn"
                                 aria-label="Open navigation menu"
                             >
-                                <img src={hamburger} alt="hamburger icon" />
+                                <img src={hamburger} alt="hamburger icon" className='hamburger icon' />
                             </button>
                         </div>
                     </div>
