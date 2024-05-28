@@ -118,7 +118,6 @@
     .arrow-container-mobile {
         display: block;
         position: absolute;
-        position: absolute;
         bottom: 0;
         right: 0;
     }
@@ -168,7 +167,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .popup {
         position: fixed;
         display: flex;
@@ -282,19 +281,18 @@
     }
 
     .arrow {
-        padding: 19.6px 23.8px;
+        padding: 39.2px 47.6px;
     }
 
     .shop-now-image-container {
         position: relative;
-        height: 360px;
+        min-height: auto;
     }
 
     .arrow-container-mobile {
         display: block;
         position: absolute;
-        position: absolute;
-        bottom: 0;
+        bottom: 3px;
         right: 0;
     }
 
@@ -337,8 +335,22 @@
         padding: 39px 32px 42px 32px;
     }
 
-    .about-text-container h3 {
-        font-size: 14px;
-        white-space: nowrap;
+    .about-text-container h3,
+    .text-container h1 {
+        font-size: 44px;
+    }
+
+    .about-text-container p,
+    .text-container p {
+        font-size: 36px;
+    }
+
+    .image_dark,
+    .image_light {
+        height: auto;
+    }
+
+    .product-image {
+        height: auto;
     }
 }
