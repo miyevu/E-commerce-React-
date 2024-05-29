@@ -25,6 +25,11 @@ This project was created using `create-react-app` with a TypeScript template:
 ```
 npx create-react-app . --template typescript
 ```
+to download the packages in your current folder or
+```
+npx create-react-app my_app --template typescript
+```
+to download the packages in a `my_app` folder created for you.
 
 ### Development Environment Setup
 

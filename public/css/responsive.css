@@ -341,11 +341,13 @@
     }
 
     .about-text-container p,
-    .about-text-container h3,
     .text-container p {
         font-size: 36px;
     }
 
+    .about-text-container h3 {
+        font-size: 30px;
+    }
 
     .hamburger,
     .logo,
